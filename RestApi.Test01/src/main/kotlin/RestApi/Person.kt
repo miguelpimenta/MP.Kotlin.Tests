@@ -1,5 +1,9 @@
 package restApi
 
+import java.time.*
+import java.time.format.DateTimeFormatter
+import java.util.*
+
 class Person() {
     private var _id: Int = 0
     var id: Int
@@ -10,20 +14,27 @@ class Person() {
 
     private var _name: String = ""
     var name: String
-        get() = _name
+        get() = this._name
         set(value) {
             _name = value
         }
 
+    private var _birthDate: Date = Date()
+    var birthDate : Date
+        get() = _birthDate
+        set(value) {
+            _birthDate = value
+        }
+
     private var _email: String = ""
-    private var email: String
+    var email: String
         get() = _email
         set(value) {
             _email = value
         }
 
     private var _obs: String = ""
-    private var obs : String
+    var obs : String
         get() = _obs
         set(value) {
             _obs = value

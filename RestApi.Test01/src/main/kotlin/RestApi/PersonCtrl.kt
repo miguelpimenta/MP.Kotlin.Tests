@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 class PersonCtrl {
+
     @Autowired
     private lateinit var db: PersonsDAL
 
