@@ -8,13 +8,18 @@ class PersonCtrl {
     @Autowired
     private lateinit var db: PersonsDAL
 
-    @RequestMapping("", method = [RequestMethod.GET])
-    fun persons() = db.getPersons()
+    @RequestMapping("/", method = [RequestMethod.GET])
+    fun welcome() : String {
+        return "Welcome to Kotlin REST API."
+    }
+
+    @RequestMapping("/persons", method = [RequestMethod.GET])
+    fun getPersons() = db.getPersons()
 
     @GetMapping("/person/{id}")
     fun getPersonById( @PathVariable("id") id:Int) = db.getPersonById(id)
 
-    @RequestMapping("/add", method = [RequestMethod.POST])
+    @RequestMapping("person/add", method = [RequestMethod.POST])
     fun addPerson(@RequestBody person: Person) =
         if (db.addPerson(person)) person
         else throw Exception("Error...")
