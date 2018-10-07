@@ -6,19 +6,14 @@ import retrofit2.Response
 
 fun main(args: Array<String>) {
 
-    val call = RetrofitInit().retrofitService().GetQuote()
+    val call = RetrofitInit().retrofitService().getQuote()
     call.enqueue(object : Callback<Quote?> {
         override fun onResponse(call: Call<Quote?>?,
                                 response: Response<Quote?>?) {
             response?.body()?.let {
                 val quote: Quote = it
-                println("---")
-                println(response)
-                println(response.body())
-                println(response.message())
-                println("---")
-                println(quote.QuoteText)
-                println(quote.QuoteAuthor)
+                println("Quote: " + quote.QuoteText)
+                println("Author: " + quote.QuoteAuthor)
             }
         }
 
@@ -26,7 +21,4 @@ fun main(args: Array<String>) {
             print("Failure: " + t?.message)
         }
     })
-
-
-    println("Test")
 }
