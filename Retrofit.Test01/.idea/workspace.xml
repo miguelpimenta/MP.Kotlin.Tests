@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be2d5f29-931a-4975-84b5-974d8489ee8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/Retrofit.Test01_main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/retrofitTest/MainKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/retrofitTest/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/retrofitTest/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/retrofitTest/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/retrofitTest/Quote.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/retrofitTest/Quote.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/retrofitTest/RetrofitService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/retrofitTest/RetrofitService.kt" afterDir="false" />
-    </list>
+    <list default="true" id="be2d5f29-931a-4975-84b5-974d8489ee8f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -34,6 +26,7 @@
     <session id="288367494">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.117" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -542,7 +535,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538930590045" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538938230184" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Code Sources/Kotlin-Android/kotlin-examples-master" />
   </component>
   <component name="RunDashboard">
@@ -589,7 +582,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -606,7 +598,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
